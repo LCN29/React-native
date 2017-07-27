@@ -8,11 +8,13 @@ import {
     View,
 } from 'react-native';
 
+import Day01 from './View/day01/Day01';
+
 export default class setup extends Component {
 
     render() {
         return (
-            <View/>
+            <Day01/>
         );
     }
 }
