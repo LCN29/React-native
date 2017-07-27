@@ -9,12 +9,13 @@ import {
 } from 'react-native';
 
 import Day01 from './View/day01/Day01';
+import Day02 from './View/day02/Day02';
 
 export default class setup extends Component {
 
     render() {
         return (
-            <Day01/>
+            <Day02/>
         );
     }
 }
