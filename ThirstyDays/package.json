@@ -12,6 +12,7 @@
     "react": "16.0.0-alpha.12",
     "react-native": "0.46.4",
     "react-native-gesture-password": "^0.2.0",
+    "react-native-linear-gradient": "^2.1.0",
     "react-native-scrollable-tab-view": "^0.6.7",
     "react-native-swipe-cards": "^0.1.0",
     "react-native-swiper": "^1.5.4",

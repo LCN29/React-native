@@ -26,13 +26,14 @@ import Day21 from './View/day21/Day21';
 import Day22 from './View/day22/Day22';
 import Day23 from './View/day23/Day23';
 import Day24 from './View/day24/Day24';
-
+import Day27 from './View/day27/Day27';
+import Day28 from './View/day28/Day28';
 /*ThirstyDays*/
 export default class setup extends Component {
 
     render() {
         return (
-            <Day24/>
+            <Day28/>
         );
     }
 }
