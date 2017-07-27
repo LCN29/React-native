@@ -19,6 +19,8 @@ export default class Cards extends Component{
     constructor(){
         super();
         /*  将一个数组直接放到state时 ， 数组名 就是他的key*/
+
+        /*  图片放于  android 里面的 drawable*/
         const names = ["Stuart","LAN","李云","MaYa"];
         const imgs = ['img01','img02','img03','img04'];
         this.state = {
