@@ -59,7 +59,7 @@ export default class Day11 extends Component{
                     />
                 </Surface>
 
-                {/* 此处好像有bug ，运行不起来*/}
+                {/* 此处好像有bug ，运行不起来*   /}
 
                 {/*<View style={styles.titleContainer}><Text style={styles.text}>Progress Pie:</Text></View>
                 <Slider
