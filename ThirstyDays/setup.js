@@ -17,13 +17,15 @@ import Day08 from './View/day08/Day08';
 import Day09 from './View/day09/Day09';
 import Day10 from './View/day10/Day10';
 import Day11 from './View/day11/Day11';
+import Day13 from './View/day13/Day13';
+
 
 /*ThirstyDays*/
 export default class setup extends Component {
 
     render() {
         return (
-            <Day11/>
+            <Day13/>
         );
     }
 }
