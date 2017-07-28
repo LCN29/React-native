@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>display-</title>
+		<style>
+			.box{
+				background: #aa9900;
+				width:300px;
+				height: 300px;
+				display: flex;
+				align-items: flex-start;
+			}
+			
+			.box div {
+				width:100px;
+				height: 100px;
+				margin:10px;
+				background: #eeff22;
+				text-align: center;
+				line-height: 100px;
+				color: #000000;
+				font-size: 40px;	
+			}
+			
+			.item1{
+				order:3;
+			}
+			
+			.item2{
+				flex-grow:1;
+			}
+			
+			.item3{
+				flex-shrink: 9;
+				align-self: flex-end;
+			}
+		</style>
+	</head>
+	<body>
+		
+		<!--
+			order  用于flex或inline-flex 的元素 控制子元素的位置顺序
+			order:<integer>;
+			默认值为0； 数值越大排在越后面
+		-->
+		
+		<!--
+			flew-grow: 用于flex或inline-flex 的元素 控制子元素的放大比例，当父元素的widtj 还没被填充
+			满时， 有这个属性的元素按比例放大。
+			flex-grow: <number>
+			默认为0； 数值越大放大越大。剩余空间等比例分配
+			
+		-->
+		
+		<!--
+			flex-shrink:用于flex或inline-flex 的元素 控制子元素的缩小比例，当父元素的width 不够时
+			 有这个属性的元素按比例缩小。
+			默认为1
+		-->
+		
+		<!--
+			flex-basis  义了在分配多余空间之前，项目占据的主轴空间，如它设了 20，先将这个元素变为20，然后其他的在变化
+			有点像宽高
+			
+		-->
+		
+		<!--
+			flex  flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto
+			该属性有两个快捷值：auto (1 1 auto) 和 none (0 0 auto)
+			
+		-->
+		
+		<!--
+			align-self  允许这个item 可以有不一样的排列方式，覆盖align-items属性；
+			父级设置了 align-item:flex-start;
+			这个item 设置了 align-self:flex-end;  显示的是 flex-end
+		-->
+		
+		
+		<div class="box">
+			<div class="item1">1</div>
+			<div class="item2">2</div>
+			<div class="item3">3</div>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>display-</title>
+		<style>
+			.box{
+				background: #aa9900;
+				width:600px;
+				height: 350px;
+				display: flex;
+				justify-content: space-around;
+			}
+			
+			.box div {
+				width:100px;
+				height: 100px;
+				margin:10px;
+				background: #eeff22;
+				text-align: center;
+				line-height: 100px;
+				color: #000000;
+				font-size: 40px;	
+			}
+		</style>
+	</head>
+	<body>
+		
+		<!--justify-content  用于flex或inline-flex 的元素 控制子元素的在主轴的排列方式 -->
+		
+		<!--  
+			flex-start :  默认属性 ，从父级的左边
+			flex-end :  从第一个元素从左排到右，直到最后一个元素排到父级的右边， 和float:right 有区别
+			center : 左右居中
+			space-between : 左右挨着父级，中间平均分配
+			space-around  :  每个元素的间隔相同
+		-->
+		
+		
+		<div class="box">
+			<div class="item">1</div>
+			<div class="item">2</div>
+			<div class="item">3</div>
+		</div>
+		
+	</body>
+</html>

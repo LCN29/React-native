@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>display-</title>
+		<style>
+			.box{
+				background: #aa9900;
+				width:200px;
+				height: 600px;
+				display: flex;
+				flex-wrap: wrap;
+				align-content:flex-start;
+			}
+			
+			.box div {
+				width:100px;
+				height: 100px;
+				margin:10px;
+				background: #eeff22;
+				text-align: center;
+				line-height: 100px;
+				color: #000000;
+				font-size: 40px;	
+			}
+		</style>
+	</head>
+	<body>
+		
+		<!--align-content  用于flex或inline-flex 的元素 控制多行子元素的在交叉轴的排列方式 -->
+		
+		<!-- 
+			stretch: 默认值， 占满这个交叉轴
+			flex-start : 从父级的上边开始
+			flex-end :  从父级的下边开始
+			center : 上下居中
+			space-between:上下各一个，中间平均
+			space-around: 每一行间隔相同
+			
+		-->
+		
+		
+		<div class="box">
+			<div class="item">1</div>
+			<div class="item">2</div>
+			<div class="item">3</div>
+		</div>
+		
+	</body>
+</html>

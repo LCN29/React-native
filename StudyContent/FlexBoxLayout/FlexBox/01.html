@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>display属性</title>
+		<style>
+			.box1{
+				background:#3300ff;
+				width:100px;
+				height:100px;
+				margin: 10px;
+				display:inline-flex;
+			}
+			
+			.box2{
+				background:#00eeff;
+				width: 100px;
+				height: 100px;
+				margin: 10px;
+				display:inline-flex;
+			}
+			
+			.box3{
+				background:#00aaff;
+				width: 200px;
+				height: 100px;
+				margin: 10px;
+				display: flex;			
+			}
+			
+			.box3 div {
+				width: 50px;
+				height: 50px;
+				background: #000000;
+				float:right;	
+			}
+		</style>
+	</head>
+	<body>
+		
+		<!--Display-->
+		
+		<!--
+			说明  ：display： flex / inline-flex;
+			将元素变为 flex元素，    
+			flex：  类似于 block 块元素 独占一行
+			inline-flex  相当于 inline-block;  内联元素 ， 可以多个占一行  
+			 如 box1,box2 为 inline-flex  2个可以在同一行  box3 为 flex , 只能自己占一行
+			
+			说明将元素变为 flex后， 自己的子元素的 float.clear,vertical-align  会失效；  
+			。box3 div 的 float:right  不起作用  将 box3 改为 display:block 可以器作用
+			
+			给  .box3 添加属性 float；right ;  可以起作用的；
+		-->
+		
+		<div class="box1">
+			<div></div>
+		</div>
+		
+		<div class="box2">
+			<div></div>
+		</div>
+		
+		<div class="box3">
+			<div></div>
+		</div>
+		
+	</body>
+</html>

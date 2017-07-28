@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>BoxApp</title>
+		<style>
+			
+			.margginBox{
+				padding-left: 7px;
+				padding-right: 7px;
+			}
+			.box{
+				width: 400px; height: 400px;
+				color:#000000;
+				line-height: 1em;
+				display: flex;
+				flex-direction:column;
+				position: relative;
+			}
+			.label{
+				top:0px;
+				left:0px;
+				padding: 0 3px 0 3px;
+				color:white;
+				position:absolute;
+				background-color: #FDC72F;
+				line-height: 1em;
+			}
+			.top{
+				justify-content: center;
+				display: flex;
+				align-items: center;
+			}
+			.bgred{
+				background-color: #6ac5ac;
+			}
+			
+			.borderBox{
+				display: flex;
+				justify-content: space-between;
+			}
+			.bottom{
+				width:100%;
+				justify-content: center;
+				display: flex;
+				align-items: center;
+			}
+			.left,.right{
+				width:100px;
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				height:100px;
+			}
+						
+		</style>
+	</head>
+	<body>
+		<span class="margginBox">
+			<span class="box">
+				<span class="label">margin</span>
+				<span class="top bgred" style="height: 50px;">top</span>
+				<span class="borderBox">
+					<span class="left bgred">left</span>
+					<span class="right bgred">right</span>
+				</span>
+				<span class="bottom bgred" style="height: 50px;">bottom</span>
+			</span>
+		</span>
+	</body>
+</html>
