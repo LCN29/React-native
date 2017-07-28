@@ -21,6 +21,7 @@ import Day13 from './View/day13/Day13';
 import Day14 from './View/day14/Day14';
 import Day16 from './View/day16/Day16';
 import Day18 from './View/day18/Day18';
+import Day19 from './View/day19/Day19';
 import Day20 from './View/day20/Day20';
 import Day21 from './View/day21/Day21';
 import Day22 from './View/day22/Day22';
