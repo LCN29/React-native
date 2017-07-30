@@ -35,7 +35,7 @@ export default class setup extends Component {
 
     render() {
         return (
-            <Day19/>
+            <Day24/>
         );
     }
 }
