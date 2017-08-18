@@ -30,9 +30,9 @@ export default class Test extends Component{
     *  2 属性 renderTabBar 默认值为 DefaultTabBar  全部tab 都显示在屏幕上 ，平均分配
      *                              ScrollableTabBar  Tab可以超过屏幕范围，滚动可以显示
      *                              TabBar  可以自定义
-     *  3 tabBarPositon : 导航条的位置
+     *  3 tabBarPosition : 导航条的位置
      *    top : 默认值 顶部  overlayTop : 顶部，悬浮于内容之上，既本身是透明的，可以看到下面的内容
-     *    bottom : 对应
+     *    bottom : 对应   overlayBottom
      *
      *  4 onChangeTab  tab切换完触发，返回一个object对象 ，里面有 i，切换到哪个tab(从0开始) ref : 切换到的tab对象
      *
