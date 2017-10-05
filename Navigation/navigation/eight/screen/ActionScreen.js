@@ -21,7 +21,7 @@ export default class ActionScreen extends Component{
     };
 
     /*
-    *  dispatch的使用需要搭配6种动作，
+    *  dispatch的使用需要搭配5种动作，
     *
     *  navigate 页面跳转
     *  reset 修改自己的state
