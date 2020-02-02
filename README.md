@@ -1,3 +1,3 @@
 # React-Native
-react-native 学习Demo
+react-native study demo
 
